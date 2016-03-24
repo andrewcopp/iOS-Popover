@@ -220,8 +220,6 @@ class PopoverView: UIView {
 let popoverView = PopoverView(frame: CGRectMake(0.0, 0.0, 320.0, 99.0))
 popoverView.instructionsText = "Let's see how robust everything is. I'll bet there is a problem somewhere."
 
-popoverView.cornerRadius = 10.0
-
 popoverView.intrinsicContentSize()
 popoverView.instructionsLabel.frame
 
